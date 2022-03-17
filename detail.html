@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>AEROS | Component Details</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <link href="assets/img/faviconA.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/theme.css" rel="stylesheet">
+    <style>
+      body{
+        font-family: "Raleway", sans-serif !important;
+      }
+    </style>
+    <script>
+      window.onload = (event) => {
+        var url = window.location;
+        if(url == "https://patelshyam.github.io/Aeros/detail.html#four") {
+          document.getElementById("four").style.display = "block";
+          document.getElementById("two").style.display = "none";
+        } else {
+          document.getElementById("four").style.display = "none";
+          document.getElementById("two").style.display = "block";
+        }
+       }
+      </script>
+  </head>
+  <body>
+    <header id="header" class="fixed-top " style="background: rgba(0, 0, 0, 0.8);">
+      <div class="container d-flex align-items-center justify-content-lg-between">
+        <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="assets/img/Logo.png" style="max-height: 100px !important;"></a></h1>
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+            <li><a class="nav-link scrollto" href="index.html#about">About Us</a></li>
+            <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
+            <li><a class="nav-link scrollto" href="product.html">Our Product</a></li>
+            <li><a class="nav-link scrollto" href="product.html#pricing">Pricing</a></li>
+            <li><a class="nav-link scrollto" href="index.html#contact">Contact Us</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <a href="documentation.html" target="_blank" class="get-started-btn scrollto">Documentation</a>
+      </div>
+    </header>
+    <main id="main">
+      <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2 style="font-weight: bold;">Componenet Details</h2>
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="product.html"></a>Product</a></li>
+              <li>Component Details</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- ======= Two Component Details Section ======= -->
+      <section id="two" class="componenet-details">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-8 mx-auto">
+              <div class="portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/product/IMG_0454.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/img/product/IMG_0452.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/img/product/IMG_0453.png" alt="">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 pt-5">
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="assets/img/components/two/digital_light_sensor.jpeg" alt="">
+              </div>
+              <div class="col-lg-6">
+                <p style="margin-top: 70px;padding: 7px;">
+                  <h4>Grove - Digital Light Sensor</h4>
+                  This module is based on the I2C light-to-digital converter TSL2561 to transform light intensity to a digital signal. Different from traditional analog light sensor, as Grove - Light Sensor, this digital module features a selectable light spectrum range due to its dual light sensitive diodes: infrared and full spectrum. <br><br>
+                  We can switch among three detection modes to take your readings. They are infrared mode, full spectrum and human visible mode. When running under the human visible mode, this sensor will give you readings just close to your eye feelings.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p style="margin-top: 70px;padding: 7px;">
+                  <h4>Grove - Loudness Sensor</h4>
+                  The Grove - Loudness Sensor is designed to detect the sound of environment. Based on LM2904 amplifier and a built-in microphone, it amplifies and filters the high frequency signal that received from the microphone, and outputs a positive envelop. The output value depends on the level of sound input. <br><br>
+                  In order to avoid unnecessary signal disturbances, input signal will go through two times filtering inside the module. There is a screw potentiometer that enables manual adjustments to the output gain.
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <img src="assets/img/components/two/grove-loudness-wppp.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======= Four Component Details Section ======= -->
+      <section id="four" class="componenet-details">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-8 mx-auto">
+              <div class="portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/product/IMG_0470.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/img/product/IMG_0454.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/img/product/IMG_0452.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/img/product/IMG_0463.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/img/product/IMG_0453.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/img/product/IMG_0464.png" alt="">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 pt-5">
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="assets/img/components/two/digital_light_sensor.jpeg" alt="">
+              </div>
+              <div class="col-lg-6">
+                <p style="margin-top: 70px;padding: 7px;">
+                  <h4>Grove - Digital Light Sensor</h4>
+                  This module is based on the I2C light-to-digital converter TSL2561 to transform light intensity to a digital signal. Different from traditional analog light sensor, as Grove - Light Sensor, this digital module features a selectable light spectrum range due to its dual light sensitive diodes: infrared and full spectrum. <br><br>
+                  We can switch among three detection modes to take your readings. They are infrared mode, full spectrum and human visible mode. When running under the human visible mode, this sensor will give you readings just close to your eye feelings.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p style="margin-top: 70px;padding: 7px;">
+                  <h4>Grove - Loudness Sensor</h4>
+                  The Grove - Loudness Sensor is designed to detect the sound of environment. Based on LM2904 amplifier and a built-in microphone, it amplifies and filters the high frequency signal that received from the microphone, and outputs a positive envelop. The output value depends on the level of sound input. <br><br>
+                  In order to avoid unnecessary signal disturbances, input signal will go through two times filtering inside the module. There is a screw potentiometer that enables manual adjustments to the output gain.
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <img src="assets/img/components/two/grove-loudness-wppp.png" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="assets/img/components/four/temprature_humidity.webp" alt="">
+              </div>
+              <div class="col-lg-6">
+                <p style="margin-top: 70px;padding: 7px;">
+                  <h4>Grove - Temperature&Humidity Sensor (High-Accuracy &Mini) v1.0</h4>
+                  This is a multifunctional sensor that gives you temperature and relative humidity information at the same time. It utilizes a TH02 sensor that can meet measurement needs of general purposes. It provides reliable readings when environment humidity condition in between 0-80% RH, and temperature condition in between 0-70°C, covering needs in most home and daily applications that don't contain extreme conditions.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <p style="margin-top: 70px;padding: 7px;">
+                  <h4>Grove - Mini Fan</h4>
+                  The Grove - Mini Fan module is a DC motor driver based on the AVR Atmega168 microcontroller. The module also provides a breakout through which you can change the microcontroller code. For example, the code can be changed so that the module can be used to drive a servomotor. By default, the module is set up to run the DC motor that is included in your mixer pack.
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <img src="assets/img/components/four/Mini_Fan head.jpg" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="assets/img/components/four/dynamic_component_window.jpg" alt="">
+              </div>
+              <div class="col-lg-6">
+                <p style="margin-top: 70px;padding: 7px;">
+                  <h4>Dynamic Component</h4>
+                  AEROS Dynamic component windows where the user can choose which component's code he/she would want to manipulate.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-info">
+                <h3><img src="assets/img/Logo.png" style="max-height: 100px !important;margin-top: -30px;"></h3>
+                <p>
+                  Str. der Nationen 62 <br>
+                  09111 Chemnitz<br><br>
+                  <i class="bi bi-phone"></i> &nbsp;+49 1522 9628 498<br>
+                  <i class="bi bi-envelope"></i> &nbsp;infoaeros@gmail.com<br>
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#about">About Us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#team">Team</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="product.html">Our Product</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="product.html#pricing">Pricing</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <h4>DISCLAIMER</h4>
+              <p>This website does not belong to a real company. <br>It is a Planspiel Web Engineering Project.</p>
+              <div class="social-links mt-3">
+                <a href="https://www.instagram.com/a.e.r.o.smart/?utm_medium=copy_link" class="instagram"><i
+                    class="bx bxl-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span style="color: #7accc8;">AEROS</span></strong> All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
