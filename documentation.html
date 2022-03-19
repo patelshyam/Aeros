@@ -8,7 +8,7 @@
     <meta name="description" content="Bootstrap 4 Template For Software Startups">
     <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
     <link href="assets/img/faviconA.png" rel="icon">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <script defer src="assets/fontawesome/js/all.min.js"></script>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="assets/plugins/simplelightbox/simple-lightbox.min.css"> 
@@ -25,46 +25,34 @@
 			padding: 5px 0 4px 5px;
 			font-size: 18px;
 		}
+		body{
+			font-family: "Raleway", sans-serif !important;
+		}
 	</style>
 </head> 
 <body class="docs-page">    
     <header id="header" class="fixed-top" style="background: rgba(0, 0, 0, 0.8);">
 		<div class="container d-flex align-items-center justify-content-lg-between">
 		  <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="assets/img/Logo.png" style="max-height: 100px !important;"></a></h1>
-		  <a href="documentation.html" target="_blank" class="get-started-btn scrollto">Download</a>
+		  <a href="assets/Document.rtf" download="documentation" class="get-started-btn scrollto">Download</a>
 		</div>
 	</header>
     <div class="docs-wrapper">
 	    <div id="docs-sidebar" class="docs-sidebar">
-		    <div class="top-search-box d-lg-none p-3">
-                <form class="search-form">
-		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
-		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
-		        </form>
-            </div>
 		    <nav id="docs-nav" class="docs-nav navbar" style="padding:1rem;">
 			    <ul class="section-items list-unstyled nav flex-column pb-3">
-				    <li class="nav-item section-title2"><a class="nav-link scrollto active" href="#section-1"><span class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Introduction</a></li>
-				    <li class="nav-item section-title2 mt-3"><a class="nav-link scrollto" href="#section-2"><span class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Installation</a></li>
-				    <!-- <li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Section Item 2.1</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Section Item 2.2</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Section Item 2.3</a></li> -->
-				    <!-- <li class="nav-item section-title2 mt-3"><a class="nav-link scrollto" href="#section-4"><span class="theme-icon-holder me-2"><i class="fas fa-cogs"></i></span>Integrations</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Section Item 4.1</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Section Item 4.2</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Section Item 4.3</a></li>
-				    <li class="nav-item section-title2 mt-3"><a class="nav-link scrollto" href="#section-6"><span class="theme-icon-holder me-2"><i class="fas fa-laptop-code"></i></span>Web</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-1">Section Item 6.1</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-2">Section Item 6.2</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-6-3">Section Item 6.3</a></li> -->
+				    <li class="nav-item section-title2"><a class="nav-link scrollto active" href="#intro"><span class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Introduction</a></li>
+				    <li class="nav-item section-title2 mt-3"><a class="nav-link scrollto" href="#installation"><span class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Installation</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#basic_model">Basic Model</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#advance_model">Advance Model</a></li>
 			    </ul>
 		    </nav>
 	    </div>
 	    <div class="docs-content">
 		    <div class="container">
-			    <article class="docs-article" id="section-1">
+			    <article class="docs-article" id="intro" style="padding-bottom: 1rem;">
 				    <header class="docs-header">
-					    <h1 class="docs-heading">Introduction <span class="docs-time">Last updated: 2022-03-12</span></h1>
+					    <h2 class="docs-heading">Introduction <span class="docs-time">Last updated: 2022-03-19</span></h2>
 					    <section class="docs-intro">
 						    <p>Smart home is the trend in the future. Converting education in such a manner that it incorporates both knowledge and
 							technology will greatly enhance the learning resource. With the potential of IoT for students, there will be more easy
@@ -74,128 +62,126 @@
 							miniature models. To help students to understand the use of IoT in real-life with smart home examples using different
 							combinations is our motivation. Follow us to enjoy the joy of DIY!!</p>
 						</section>
-
+				    </header>			
+			    </article>
+			    <article class="docs-article" id="installation" style="padding-top: 1rem;padding-bottom: 1rem;">
+					<h2 style="margin-top: 0rem;">Installation</h2>
+					<p>To make it even easier for students and researchers to experiment with IoT, Aeros gives its users an already installed desktop application to work with the components. Please follow the next steps to dive into the world of IoT with Aeros.</p>
+			    </article>
+				<article class="docs-article" id="basic_model" style="padding-top: 0;padding-bottom: 1rem;">
+					<h4 style="font-weight: bold;">Basic Model with 2 components</h4>
+					<ol>
+						<li>Sound and Light component, it comes with 2 sensors. The Loudness Sensor plugs into analog port A0 and the Digital Light Sensor plugs into I2C 2 or 3.</li>
+						<img src="assets/img/product/image-118.jpg" style="width: 70%;"/>
+						<li>To start experimenting further, launch our desktop application and navigate to the specific component, either Light or Sound.</li>
+						<img src="assets/img/product/desktoppanel.jpg" style="width: 70%;"/>
+						<li>For the Light component, the three values for light: Vis, Lux and Visible IR will be displayed and there is also an On/Off button for Relay.</li>
+						<li>For the Sound component, the Loudness value will be displayed which is being read from the Loudness sensor and the buzzer starts buzzing when the loudness value crosses 250.</li>
+						<img src="assets/img/product/image-121.jpg" style="width: 70%;"/>
+						<li>Furthermore, to dive deep into the code behind and explore about the components, there is a feature to download the code from our desktop application. For that, one has to give the absolute path where he/she wants the code to be downloaded along with the name of the folder: home/pi/Desktop/[name_of_folder].</li>
+						<li>The data being recorded from the sensors can also be viewed on our Dashboard. To visualise and determine the results better, we provide graphs for the same.</li>
+						<img src="assets/img/product/dashboard.png" style="width: 70%;"/>
+						<li>The data is recorded locally, only when the user wishes can he/she send it to the server and view it on the dashboard.</li>
+					</ol>
+			    </article>
+				<hr class="mx-auto" style="width:70%;text-align: center;">
+				<article class="docs-article" id="advance_model" style="padding-top: 1rem;">
+					<h4 style="font-weight:bold;padding-top: 0rem;">Advance Model with 4 components</h4>
+					<ol>
+						<li>Sound, Light, Temperature & Humidity and Dynamic component, it comes with 3 sensors. The Loudness Sensor plugs into analog port A0, the Digital Light Sensor plugs into I2C 2 or 3 and the Temperature & Humidity sensor connects to I2C 1.</li>
+						<img src="assets/img/product/image-118.jpg" style="width: 70%;"/>
+						<li>To start experimenting, launch our desktop application and navigate to the specific component.</li>
+						<img src="assets/img/product/desktoppanel.jpg" style="width: 70%;"/>
+						<li>For the Light component, the three values for light: Vis, Lux and Visible IR will be displayed and there is also an On/Off button for Relay.</li>
+						<li>For the Sound component, the Loudness value will be displayed which is being read from the Loudness sensor and the buzzer starts buzzing when the loudness value crosses 250.</li>
+						<img src="assets/img/product/image-121.jpg" style="width: 70%;"/>
+						<li>For Temperature & Humidity with fan component, the fan will start automatically once the temperature goes above 26 degrees Celsius.</li>
 						<div class="callout-block callout-block-info">
-						
 							<div class="content">
 								<h4 class="callout-title">
 									<span class="callout-icon-holder me-1">
-										<i class="fas fa-info-circle"></i>
+										<svg class="svg-inline--fa fa-info-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"></path></svg><!-- <i class="fas fa-info-circle"></i> Font Awesome fontawesome.com -->
 									</span>
-									<!--//icon-holder-->
 									Note
 								</h4>
-								<p>Comming Soon</p>
+								<p>For buzzer and fan, the values where it goes off (eg: 250 for buzzer and 26 degrees for fan) can be changed from the underlying program.</p>
 							</div>
-							<!--//content-->
 						</div>
-						<!-- <h5>Github Code Example:</h5>
-						<p>You can <a class="theme-link" href="https://gist.github.com/"  target="_blank">embed your code snippets using Github gists</a></p>
-						<div class="docs-code-block">
-							<script src="https://gist.github.com/xriley/fce6cf71edfd2dadc7919eb9c98f3f17.js"></script>
-						</div>
-					    <h5>Highlight.js Example:</h5>
-						<p>You can <a class="theme-link" href="https://github.com/highlightjs/highlight.js" target="_blank">embed your code snippets using highlight.js</a> It supports <a class="theme-link" href="https://highlightjs.org/static/demo/" target="_blank">185 languages and 89 styles</a>.</p>
-						<p>This template uses <a class="theme-link" href="https://highlightjs.org/static/demo/" target="_blank">Atom One Dark</a> style for the code blocks: <br><code>&#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css&#x22;&#x3E;</code></p>
-						<div class="docs-code-block">
-							<pre class="shadow-lg rounded"><code class="json hljs">[
-  {
-    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"apples"</span>,
-    <span class="hljs-attr">"count"</span>: [<span class="hljs-number">12000</span>, <span class="hljs-number">20000</span>],
-    <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
-  },
-  {
-    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
-    <span class="hljs-attr">"count"</span>: [<span class="hljs-number">17500</span>, <span class="hljs-literal">null</span>],
-    <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
-  }
-]
-
-
-</code></pre> 
-						</div>--><!--//docs-code-block-->
-						
-						
-				    </header>
-					
-			    </article>
-			    
-			    <article class="docs-article" id="section-2">
-				    <header class="docs-header">
-					    <h1 class="docs-heading">Installation</h1>
+						<li>The dynamic component is designed for the user to make use of different combinations of sensors in the same program. The selected sensor's code will be downloaded.</li>
 						<div class="callout-block callout-block-info">
-						
 							<div class="content">
 								<h4 class="callout-title">
 									<span class="callout-icon-holder me-1">
-										<i class="fas fa-info-circle"></i>
+										<svg class="svg-inline--fa fa-info-circle fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"></path></svg><!-- <i class="fas fa-info-circle"></i> Font Awesome fontawesome.com -->
 									</span>
-									<!--//icon-holder-->
 									Note
 								</h4>
-								<p>Comming Soon</p>
+								<p>For now, limited number of sensors are present. It will be continuously developed as per the user's needs and market requirements.</p>
 							</div>
-							<!--//content-->
 						</div>
-				    </header>
+						<li>Furthermore, to dive deep into the code behind and explore about the components, there is a feature to download the code from our desktop application. For that, one has to give the absolute path where he/she wants the code to be downloaded along with the name of the folder: home/pi/Desktop/[name_of_folder].</li>
+						<li>Using dynamic component screen in one can add component of their choice and experiment with it.</li>
+						<img src="assets/img/product/image-124.jpg" style="width: 70%;"/>
+						<li>The data being recorded from the sensors can also be viewed on our Dashboard. To visualise and determine the results better, we provide graphs for the same.</li>
+						<img src="assets/img/product/dashboard.png" style="width: 70%;"/>
+						<li>The data is recorded locally, only when the user wishes can he/she send it to the server and view it on the dashboard.</li>
+					</ol>
+					The data is recorded locally, only when the user wishes can he/she send it to the server and view it on the dashboard.<br><br>
+					<strong>Happy learning!</strong>
 			    </article>
-			
-				
 		    </div> 
 	    </div>
-		<footer id="footer">
-			<div class="footer-top">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-6">
-							<div class="footer-info">
-								<h3><img src="assets/img/Logo.png" / style="max-height: 100px !important;margin-top: -30px;">
-								</h3>
-								<p>
-									Str. der Nationen 62 <br>
-									09111 Chemnitz<br><br>
-									<i class="bi bi-phone"></i> &nbsp;+49 1522 9628 498<br>
-									<i class="bi bi-envelope"></i> &nbsp;infoaeros@gmail.com<br>
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-6 footer-links">
-							<h4>Useful Links</h4>
-							<ul>
-								<li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-								<li><i class="bx bx-chevron-right"></i> <a href="#about">About Us</a></li>
-								<li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact Us</a></li>
-							</ul>
-						</div>
-						<div class="col-lg-3 col-md-6 footer-links">
-							<h4>Useful Links</h4>
-							<ul>
-								<li><i class="bx bx-chevron-right"></i> <a href="#team">Team</a></li>
-								<li><i class="bx bx-chevron-right"></i> <a href="product.html">Our Product</a></li>
-                						<li><i class="bx bx-chevron-right"></i> <a href="product.html#pricing">Pricing</a></li>
-							</ul>
-						</div>
-						<div class="col-lg-4 col-md-6 footer-newsletter">
-							<h4>DISCLAIMER</h4>
-							<p>This website does not belong to a real company. <br>It is a Planspiel Web Engineering Project.
+    </div>
+	<footer id="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-info">
+							<h3><img src="assets/img/Logo.png" style="max-height: 100px !important;margin-top: -30px;">
+							</h3>
+							<p>
+								Str. der Nationen 62 <br>
+								09111 Chemnitz<br><br>
+								<i class="bi bi-phone"></i> &nbsp;+49 1522 9628 498<br>
+								<i class="bi bi-envelope"></i> &nbsp;infoaeros@gmail.com<br>
 							</p>
-							<div class="social-links mt-3">
-								<a href="https://www.instagram.com/a.e.r.o.smart/?utm_medium=copy_link" class="instagram"><i
-										class="bx bxl-instagram"></i></a>
-							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-6 footer-links">
+						<h4>Useful Links</h4>
+						<ul>
+							<li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#about">About Us</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-6 footer-links">
+						<h4>Useful Links</h4>
+						<ul>
+							<li><i class="bx bx-chevron-right"></i> <a href="#team">Team</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="product.html">Our Product</a></li>
+									<li><i class="bx bx-chevron-right"></i> <a href="product.html#pricing">Pricing</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-6 footer-newsletter">
+						<h4>DISCLAIMER</h4>
+						<p>This website does not belong to a real company. <br>It is a Planspiel Web Engineering Project.
+						</p>
+						<div class="social-links mt-3">
+							<a href="https://www.instagram.com/a.e.r.o.smart/?utm_medium=copy_link" class="instagram"><i
+									class="bx bxl-instagram"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="container">
-				<div class="copyright">
-					&copy; Copyright <strong><span style="color: #7accc8;">AEROS</span></strong> All Rights Reserved
-				</div>
+		</div>
+		<div class="container">
+			<div class="copyright">
+				&copy; Copyright <strong><span style="color: #7accc8;">AEROS</span></strong> All Rights Reserved
 			</div>
-		</footer>
-    </div><!--//docs-wrapper-->
-   
-       
+		</div>
+	</footer>
     <!-- Javascript -->          
     <script src="assets/plugins/popper.min.js"></script>
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
